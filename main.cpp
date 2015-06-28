@@ -195,6 +195,7 @@ int main(){
         wrefresh(stdscr);
         usleep(TIME_DELAY*1000);
     }
+    endwin();
 
     return 0;
 }
