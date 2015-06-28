@@ -192,7 +192,7 @@ int main(){
         mv_board();
         mv_ball();
 
-        wrefresh(stdscr);
+        refresh();
         usleep(TIME_DELAY*1000);
     }
     endwin();
